@@ -10,4 +10,17 @@ Currently, two official plugins are available:
 
 # Caracteristicas do projeto
 
-## # loja-virtual
+## loja-virtual
+
+- React + Vite
+* Utilizado template do react com o vite e inserido o react-router para facilitar a criação de rotas na pasta raiz.
+
+- Bootstrap + React Bootstrap
+* Para facilitar a customização, foi utilizado tambem o Bootstrap.
+
+- React Countup
+* Para desenvolvimentos
+
+- Swiper js
+
+- Poppersjs/Core
