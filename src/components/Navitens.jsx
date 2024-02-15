@@ -8,21 +8,21 @@ const Navitens = () => {
     const [headerFixed, setHeaderFixed] = useState(false);
 
     //addevent listener
-    window.addEventListener('scroll', () => {
+    window.addEventListener("scroll", () => {
         if (window.scrollY > 200) {
             setHeaderFixed(true);
         } else {
             setHeaderFixed(false);
-        }
+        } 
     })
     return (
-        <header className={'header-section style-4 ${headerFixed ? "header-fixed fadeInUp" : ""}'}>
+        <header className={`header-section style-4 ${headerFixed ? "header-fixed fadeInUp" : ""}`}>
             {/*header top start*/}
-            <div className={'header-top d-md-none ${socialToggle ? "open" : ""}'}>
+            <div className={`header-top d-md-none ${socialToggle ? "open" : ""}`}>
                 <div className="container">
                     <div className="header-top-area">
-                        <Link to="/signup" className='lab-btn me-3'><span>Criar Conta</span></Link>
-                        <Link to="/login"><span>Entrar</span></Link>
+                        <Link to="/signup" className='lab-btn me-3 d-md-none'><span>Criar Conta</span></Link>
+                        <Link to="/login" className='d-md-none'><span>Entrar</span></Link>
                     </div>
                 </div>
             </div>
@@ -42,7 +42,7 @@ const Navitens = () => {
                         {/*menu area*/}
                         <div className='menu-area'>
                             <div className="menu">
-                                <ul className={'lab-ul ${menuToggle ? "active" : ""}'}>
+                                <ul className={`lab-ul ${menuToggle ? "active" : ""}`}>
                                     <li><Link to="/">Inicio</Link></li>
                                     <li><Link to="/shop">Shop</Link></li>
                                     <li><Link to="/blog">Blog</Link></li>
@@ -56,10 +56,15 @@ const Navitens = () => {
                                 <Link to='/login' className='d-none d-md-block'>Entrar</Link>
                             
                             {/* menu toggle*/}
-                            <div onClick={() => setMenuToggle(!menuToggle)} className={'header-bar d-lg-none ${menuToggle ? "active" : ""}'}>
+                            <div onClick={() => setMenuToggle(!menuToggle)} className={`header-bar d-lg-none ${menuToggle ? "active" : ""}`}>
                                 <span></span>
                                 <span></span>
                                 <span></span>
+                            </div>
+
+                            {/* social toggler*/}
+                            <div className="ellepsis-bar d-md-none" onClick={() => setSocialToggle(!socialToggle)}>
+                                <i className="icofont-info-square"></i>
                             </div>
                         </div>
                     </div>

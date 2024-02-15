@@ -24,3 +24,6 @@ Currently, two official plugins are available:
 - Swiper js
 
 - Poppersjs/Core
+
+
+Utilizado iconfont
