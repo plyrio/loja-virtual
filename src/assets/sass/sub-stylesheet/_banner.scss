@@ -358,7 +358,6 @@
                     padding: 21px 15px;
                     outline: none;
                     width: 200px;
-                    border: none;
                     @extend %title-color;
                     @extend %bg-white;
                     @include breakpoint(max-sm) {
