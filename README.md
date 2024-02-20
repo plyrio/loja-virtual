@@ -19,9 +19,11 @@ Currently, two official plugins are available:
 * Para facilitar a customização, foi utilizado tambem o Bootstrap.
 
 - React Countup
-* Para desenvolvimentos
+* Utilizade para fazer a contagem crescente até a quantidade maxima definida no componente AboutUs.
 
 - Swiper js
+* Para realizar os slider dos patrocinadores no componente Sponsor.
+* Foi utilizado Responsivo Breakpoint para o projeto, com algumas alterações.
 
 - Poppersjs/Core
 
