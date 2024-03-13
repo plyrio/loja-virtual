@@ -6,19 +6,19 @@ const title = "Nossos Produtos";
 
 const ProductData = [
     {
-        imgUrl: './src/assets/images/categoryTab/01.jpg',
+        imgUrl: './loja-virtual/src/assets/images/categoryTab/01.jpg',
         cate: 'Shoes',
         title: 'Nike Premier X',
-        author: './assets/images/course/author/01.jpg',
+        author: './loja-virtual/assets/images/course/author/01.jpg',
         brand: 'Nike',
         price: '$199.00',
         id: 1,
     },
     {
-        imgUrl: './src/assets/images/categoryTab/02.jpg',
+        imgUrl: './loja-virtual/src/assets/images/categoryTab/02.jpg',
         cate: 'Bags',
         title: 'Asthetic Bags',
-        author: './assets/images/course/author/02.jpg',
+        author: './loja-virtual/assets/images/course/author/02.jpg',
         brand: 'D&J Bags',
         price: '$199.00',
         id: 2,
