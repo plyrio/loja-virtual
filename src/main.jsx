@@ -23,11 +23,11 @@ import Blog from './blog/Blog.jsx';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/loja-virtual/",
     element: <App/>,
     children: [
-      { path:"/", element: <Home /> },
-      { path: "/blog", element: <Blog /> },
+      { path:"/loja-virtual/", element: <Home /> },
+      { path: "/loja-virtual/blog", element: <Blog /> },
   ]
   },
 ]);
