@@ -7,17 +7,17 @@ const desc = "Compre produtos em qualquer dispositivo com nosso aplicativo e apr
 
 const clientsList = [
     {
-        imgUrl: '/src/assets/images/clients/avater.jpg',
+        imgUrl: './loja-virtual/src/assets/images/clients/avater.jpg',
         imgAlt: 'education thumb rajibraj91 rajibraj',
         text: 'Junte-se a nós',
     },
     {
-        imgUrl: '/src/assets/images/clients/avater.jpg',
+        imgUrl: 'loja-virtual/src/assets/images/clients/avater.jpg',
         imgAlt: 'education thumb rajibraj91 rajibraj',
         text: 'Junte-se a nós',
     },
     {
-        imgUrl: '/src/assets/images/clients/avater.jpg',
+        imgUrl: './loja-virtual/src/assets/images/clients/avater.jpg',
         imgAlt: 'education thumb rajibraj91 rajibraj',
         text: 'Junte-se a nós',
     },
