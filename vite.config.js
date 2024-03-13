@@ -5,8 +5,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/loja-virtual/',
-    build: {
-          outDir: 'doc',
-    }
-//  base: '/loja-virtual/', 
+  build: {
+        outDir: 'doc',
+  }
+//  base: '/loja-virtual/',
+//teste 
 })
