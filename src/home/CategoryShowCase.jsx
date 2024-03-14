@@ -6,34 +6,34 @@ const title = "Nossos Produtos";
 
 const ProductData = [
     {
-        imgUrl: 'loja-virtual/src/assets/images/categoryTab/01.jpg',
+        imgUrl: 'src/assets/images/categoryTab/01.jpg',
         cate: 'Shoes',
         title: 'Nike Premier X',
-        author: 'loja-virtual/assets/images/course/author/01.jpg',
+        author: './assets/images/course/author/01.jpg',
         brand: 'Nike',
         price: '$199.00',
         id: 1,
     },
     {
-        imgUrl: 'loja-virtual/src/assets/images/categoryTab/02.jpg',
+        imgUrl: 'src/assets/images/categoryTab/02.jpg',
         cate: 'Bags',
         title: 'Asthetic Bags',
-        author: 'loja-virtual/assets/images/course/author/02.jpg',
+        author: './assets/images/course/author/02.jpg',
         brand: 'D&J Bags',
         price: '$199.00',
         id: 2,
     },
     {
-        imgUrl: './src/assets/images/categoryTab/03.jpg',
+        imgUrl: 'src/assets/images/categoryTab/03.jpg',
         cate: 'Phones',
         title: 'iPhone 12',
-        author: './src/assets/images/categoryTab/brand/apple.png',
+        author: 'src/assets/images/categoryTab/brand/apple.png',
         brand: 'Apple',
         price: '$199.00',
         id: 3,
     },
     {
-        imgUrl: './src/assets/images/categoryTab/04.jpg',
+        imgUrl: 'src/assets/images/categoryTab/04.jpg',
         cate: 'Bags',
         title: 'Hiking Bag 15 Nh100',
         author: 'assets/images/course/author/04.jpg',
@@ -95,10 +95,10 @@ function CategoryShowCase() {
         <div className='course-section style-3 padding-tb'>
             {/* shapes */}
             <div className='course-shape one'>
-                <img src="/src/assets/images/shape-img/icon/01.png" alt="" />
+                <img src="./src/assets/images/shape-img/icon/01.png" alt="" />
             </div>
             <div className='course-shape two'>
-                <img src="/src/assets/images/shape-img/icon/02.png" alt="" />
+                <img src="./src/assets/images/shape-img/icon/02.png" alt="" />
             </div>
 
             {/* main section */}
