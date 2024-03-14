@@ -22,22 +22,22 @@ const clientsList = [
         text: 'Junte-se a nós',
     },
     {
-        imgUrl: '/src/assets/images/clients/avater.jpg',
+        imgUrl: './src/assets/images/clients/avater.jpg',
         imgAlt: 'education thumb rajibraj91 rajibraj',
         text: 'Junte-se a nós',
     },
     {
-        imgUrl: '/src/assets/images/clients/avater.jpg',
+        imgUrl: './src/assets/images/clients/avater.jpg',
         imgAlt: 'education thumb rajibraj91 rajibraj',
         text: 'Junte-se a nós',
     },
     {
-        imgUrl: '/src/assets/images/clients/avater.jpg',
+        imgUrl: './src/assets/images/clients/avater.jpg',
         imgAlt: 'education thumb rajibraj91 rajibraj',
         text: 'Junte-se a nós',
     },
     {
-        imgUrl: '/src/assets/images/clients/avater.jpg',
+        imgUrl: './src/assets/images/clients/avater.jpg',
         imgAlt: 'education thumb rajibraj91 rajibraj',
         text: 'Junte-se a nós',
     },

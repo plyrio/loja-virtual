@@ -10,7 +10,7 @@ const AppSection = () => {
         <div className='app-section padding-tb'>
             <div className="container">
                 <div className="section-header text-center">
-                    <Link to="/signup" className='lab-btn mb-4'>{btnText}</Link>
+                    <Link to="./signup" className='lab-btn mb-4'>{btnText}</Link>
                     <h2 className="title">{title}</h2>
                     <p>{desc}</p>
                 </div>
@@ -18,10 +18,10 @@ const AppSection = () => {
                 <div className="section-wrapper">
                     <ul className="lab-ul">
                         <li>
-                            <a href="#"><img src="/src/assets/images/app/01.jpg" alt="" /></a>
+                            <a href="#"><img src="./src/assets/images/app/01.jpg" alt="" /></a>
                         </li>
                         <li>
-                            <a href="#"><img src="/src/assets/images/app/02.jpg" alt="" /></a>
+                            <a href="#"><img src="./src/assets/images/app/02.jpg" alt="" /></a>
                         </li>
                     </ul>
                 </div>
