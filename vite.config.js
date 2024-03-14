@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base: '/loja-virtual/',
   build: {
-    assetsDir: 'assets', // Diretório onde as imagens serão copiadas
+    assetsDir: './src/assets', // Diretório onde as imagens serão copiadas
     rollupOptions: {
       output: {
         // manualChunks: undefined // Garanta que não haja otimização adicional
