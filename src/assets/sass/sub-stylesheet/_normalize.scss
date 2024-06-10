@@ -6,8 +6,10 @@
 	outline: none; 
 	box-shadow: none;
 }
-html {
-	scroll-behavior: auto !important;
+html, body {
+        width: 100%;
+        overflow-x: hidden; /* Adiciona esta linha para prevenir rolagem horizontal */
+        scroll-behavior: auto !important;
 }
 
 body {
