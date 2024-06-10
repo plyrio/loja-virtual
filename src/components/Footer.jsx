@@ -228,7 +228,7 @@ const Footer = () => {
                                                 {
                                                     tweetList.map((val, i) => (
                                                         <li key={i}>
-                                                            <i className={val.iconName}>{val.desc}</i>
+                                                            <i className={val.iconName}></i>{val.desc}
                                                         </li>
                                                     ))
                                                 }
