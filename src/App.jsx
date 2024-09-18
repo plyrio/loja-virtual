@@ -8,7 +8,10 @@ export default function App() {
   return (
     <>
       <Navitens />
-      <Outlet />
+      <div className="min-vh-100">
+        <Outlet />
+      </div>
+      
       <Footer />
     </>
   );

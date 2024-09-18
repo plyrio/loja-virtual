@@ -20,14 +20,16 @@ import {
 } from "react-router-dom";
 import Home from './home/Home.jsx';
 import Blog from './blog/Blog.jsx';
+import Shop from './shop/Shop.jsx';
 
 const router = createBrowserRouter([
   {
-    path: "/loja-virtual/",
+    path: "/",
     element: <App/>,
     children: [
-      { path:"/loja-virtual/", element: <Home /> },
-      { path: "/loja-virtual/blog", element: <Blog /> },
+      { path:"/", element: <Home /> },
+      { path: "/blog", element: <Blog /> },
+      { path: "/shop", element: <Shop />}
   ]
   },
 ]);

@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/loja-virtual/',
+  base: './',
   build: {
     assetsDir: './src/assets', // Diretório onde as imagens serão copiadas
     rollupOptions: {
